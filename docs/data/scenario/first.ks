@@ -5,6 +5,8 @@
 [wait time=200]
 [freeimage layer="base"]
 
+[position vertical="false" left="0" top="40" width="960" height="500" margint="2" marginl="30" page="fore" visible="true"]
+
 「関東弁か関西弁か」[l][r]
 
 君は関東の大学に通っているAだ。[l][r]
@@ -15,9 +17,13 @@
 
 これから君は大阪で初対面の人と食事をする。[l][r]
 
-つい関西弁を言いたくなるのを堪え、無事食事を円満に終わらせよう。[l][r]
+つい関西弁を言いたくなるのを堪え、無事食事を円満に終わらせよう。[l][er]
 
 [bg storage=dinner-first.jpg time=500]
+
+[position vertical="false"]
+[position left="0" top="440" width="960" height="250"]
+[position margint="50" marginl="25" marginr="25" marginb="10"]
 
 （相手）今日は来てくれてほんまにありがとう！よろしくやで。[l][r]
 
@@ -39,6 +45,8 @@
 
 【 BAD END 】[l][cm]
 
+
+
 [jump target=*start]
 
 *tag_rage_2
@@ -55,17 +63,19 @@
 
 【 BAD END 】[l][cm]
 
+
+
 [jump target=*start]
 
 *tag_second
 
 
 [cm]
-（君）本日はよろしくお願いします。[l][r]
+（君）本日はよろしくお願いします。[l][er]
 
 [bg storage=dinner-second.jpg time=500]
 
-（相手）おお、礼儀ええなぁ！もっと気楽でいいんやで！[l][r]
+（相手）おお、礼儀ええなぁ！もっと気楽でいいんやで！[l][er]
 （相手）ほんまにええ子やな～[l][r]
 
 [link target=*tag_rage_2] →せやろ？よう言われんねんそれ！ [endlink][r]
@@ -88,5 +98,6 @@
 食事は円満に終わったようだ[l][r]
 
 【 GOOD END 】[l][cm]
+
 
 [jump target=*start]

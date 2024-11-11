@@ -267,7 +267,7 @@
 	[configdelay speed="&tf.set_ch_speed"]
 
 ;	テキスト表示速度のサンプルに使用するメッセージレイヤの設定
-	[position layer="message1" left="90" top="580" width="1100" height="100" margint="2" marginl="30" page="fore" visible="true" opacity="0"]
+	[position layer="message1" left="0" top="440" width="960" height="200" margint="2" marginl="30" page="fore" visible="true" opacity="0"]
 	[layopt layer="message1" visible="true"]
 	[current layer="message1"]
 
