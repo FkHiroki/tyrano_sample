@@ -19,18 +19,36 @@
 
 [bg storage=dinner-first.jpg time=500]
 
-（相手）今日は来てくれてほんまにありがとう！よろしくやで。
+（相手）今日は来てくれてほんまにありがとう！よろしくやで。[l][r]
 
-[link target=*tag_rage] →ほんまよろしくやで！ [endlink][r]
+[link target=*tag_rage_1] →ほんまよろしくやで！ [endlink][r]
 [link target=*tag_second] →本日はよろしくお願いします。 [endlink][r]
 [s]
 
-*tag_rage
+*tag_rage_1
 
 [cm]
 
+
+（君）ほんまよろしくやで！[l][r]
+
 [bg storage=dinner-rage.jpg time=500]
 
+相手は激怒したようだ[l][r]
+（相手）あんた、、関西弁を侮辱してるん？？[r]
+
+【 BAD END 】[l][cm]
+
+[jump target=*start]
+
+*tag_rage_2
+
+[cm]
+
+
+（君）せやろ？よう言われんねんそれ！[l][r]
+
+[bg storage=dinner-rage.jpg time=500]
 
 相手は激怒したようだ[l][r]
 （相手）あんた、、関西弁を侮辱してるん？？[r]
@@ -41,11 +59,33 @@
 
 *tag_second
 
-[bg storage=run.jpg time=500]
 
 [cm]
-メロスは黒い風のように走った。[l][r]
-陽は、ゆらゆら地平線に没し、まさに最後の一片の残光も、消えようとした時、メロスは疾風の如く刑場に突入した。間に合った。[r]
+（君）本日はよろしくお願いします。[l][r]
+
+[bg storage=dinner-second.jpg time=500]
+
+（相手）おお、礼儀ええなぁ！もっと気楽でいいんやで！[l][r]
+（相手）ほんまにええ子やな～[l][r]
+
+[link target=*tag_rage_2] →せやろ？よう言われんねんそれ！ [endlink][r]
+[link target=*tag_third] →とんでもないです。そう言っていただけて嬉しいです。 [endlink][r]
+[s]
+
+
+*tag_third
+
+
+[cm]
+（君）とんでもないです。そう言っていただけて嬉しいです。[l][r]
+
+[bg storage=dinner-third.jpg time=500]
+
+（相手）もうほんまいい子！あんたと会えてほんま楽しかったで[l][r]
+（相手）しめに記念写真でもとろうや[l][r]
+
+[bg storage=dinner-last.jpg time=500]
+食事は円満に終わったようだ[l][r]
 
 【 GOOD END 】[l][cm]
 
